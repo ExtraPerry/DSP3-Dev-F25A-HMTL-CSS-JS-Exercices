@@ -500,6 +500,7 @@ footer {
 
 .footer-divider-icon {
     fill: rgb(103, 103, 103);
+    transform: rotate(-15deg);
 }
 
 .footer-rebike-title {

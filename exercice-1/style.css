@@ -1,0 +1,507 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1140px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+
+    width: 320px;
+    padding-top: 10px;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 5rem;
+    padding: 0;
+    margin: 0;
+
+    border: none;
+    color: rgb(24, 32, 69);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dropdown-chevron {
+    width: 15px;
+    margin-left: 5px;
+    fill: rgb(26, 31, 73);
+}
+
+.navbar-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 5rem;
+    padding: 8px 15px;
+    margin-left: 20px;
+
+    color: white;
+    text-decoration: none;
+    border-radius: 2.5rem;
+    background-color: rgb(226, 97, 56);
+}
+
+.center-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-self: center;
+
+    width: 1140px;
+    padding: 0;
+    margin: 0;
+}
+
+.orange-title {
+    margin-top: 100px;
+
+    color: rgb(200, 112, 86);
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.blue-title {
+    margin-top: 25px;
+
+    color: rgb(27, 30, 84);
+    font-size: 2rem;
+}
+
+.header-blue-title {
+    margin-top: 25px;
+
+    color: rgb(26, 31, 82);
+    font-size: 3rem;
+}
+
+.header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 6.5rem;
+    margin-top: 40px;
+    padding: 8px 15px;
+
+    color: white;
+    text-decoration: none;
+    border-radius: 2.5rem;
+    background-color: rgb(227, 96, 59);
+}
+
+.header-image {
+    width: 512px;
+}
+
+.section-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-step-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 1rem;
+    margin: 0;
+
+    fill: white;
+    border-radius: 0.75rem;
+    background-color: rgb(227, 96, 59);
+}
+
+.section-step-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 50px;
+    width: 256px;
+    text-align: center;
+}
+
+.small-blue-title {
+    margin-top: 15px;
+
+    color: rgb(26, 31, 82);
+    font-size: 1.5rem;
+}
+
+.grey-text {
+    margin-top: 15px;
+
+    color: rgb(146, 146, 146);
+    font-size: 1.15rem;
+}
+
+.section-step-arrow {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 1rem;
+    margin: 0;
+
+    fill: rgb(200, 112, 86);;
+}
+
+.section-about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-about-us-image-area {
+    position: relative;
+    flex: 1;
+
+    height: 100%;
+    padding-top: 50px;
+}
+
+.section-about-us-image-background {
+    width: 14rem;
+    height: 22.5rem;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 7.5%);
+    border-radius: 20px;
+    background-color: rgb(227, 96, 59);
+}
+
+.section-about-us-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    width: 22.5rem;
+    height: auto;
+}
+
+.section-about-us-text-area {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+    width: 512px;
+    padding-left: 140px;
+}
+
+.section-about-us-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    width: 100%;
+    padding-top: 40px;
+}
+
+.section-about-us-stat {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.section-about-us-stat-number {
+    color: rgb(226, 93, 60);
+    font-size: 2rem;
+}
+
+.section-about-us-stat-text {
+    color: rgb(134, 134, 134);
+    font-size: 0.75rem;
+
+    padding-top: 10px;
+}
+
+.section-bike-cards {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.section-bike-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 320px;
+    margin: 15px;
+
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 1rem;
+}
+
+.section-bike-card-image {
+    width: 290px;
+    padding-top: 25px;
+}
+
+.section-bike-card-title-bar {
+    display: flex;
+    justify-content: center;
+
+    width: 300px;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background: rgb(26, 31, 82);
+}
+
+.section-bike-card-title-bar-text {
+    color: white;
+    font-size: 1rem;
+    font-weight: lighter;
+
+    text-align: center;
+}
+
+.small-orange-title {
+    padding-top: 15px;
+
+    color: rgb(200, 112, 86);
+    font-size: 1.5rem;
+}
+
+.section-bike-card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 6.5rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 8px 15px;
+
+    color: white;
+    text-decoration: none;
+    border-radius: 2.5rem;
+    background-color: rgb(227, 96, 59);
+}
+
+.section-rent-it {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 960px;
+    margin-top: 75px;
+    padding: 35px;
+
+    background: rgb(26, 31, 82);
+    border-radius: 1rem;
+}
+
+.white-title {
+    color: white;
+    font-size: 2rem;
+}
+
+.section-rent-it-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 6.5rem;
+    padding: 8px 15px;
+
+    color: white;
+    text-decoration: none;
+    border-radius: 2.5rem;
+    background-color: rgb(227, 96, 59);
+}
+
+.section-choose-us-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 50px;
+}
+
+.section-choose-us-card {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+
+    width: 280px;
+    margin: 15px;
+    padding: 25px;
+
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 1rem;
+}
+
+.section-choose-us-icon {
+    width: 48px;
+    fill: rgb(227, 96, 59);
+}
+
+.section-testimonial-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 50px;
+}
+
+.section-testimonial-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 280px;
+    margin: 15px;
+    padding: 25px;
+
+    background: rgb(243, 243, 243);
+    border-radius: 1rem;
+}
+
+.tiny-blue-title {
+    margin-top: 15px;
+
+    color: rgb(26, 31, 82);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.tiny-grey-text {
+    color: rgb(146, 146, 146);
+    font-size: 0.75rem;
+}
+
+footer {
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+
+    background: rgb(27, 32, 84);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 1140px;
+}
+
+.footer-info-container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.footer-info-horizontal-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 100px;
+}
+
+.footer-info-vertical-container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.footer-white-title {
+    color: white;
+    font-size: 1.25rem;
+}
+
+.footer-grey-text {
+    margin-top: 15px;
+
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+}
+
+.footer-divider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-divider {
+    width: 512px;
+    margin: 25px;
+
+    border-bottom: 1px solid rgb(103, 103, 103);
+}
+
+.footer-divider-icon {
+    fill: rgb(103, 103, 103);
+}
+
+.footer-rebike-title {
+    color: white;
+    font-size: 4rem;
+}
+
+
+
